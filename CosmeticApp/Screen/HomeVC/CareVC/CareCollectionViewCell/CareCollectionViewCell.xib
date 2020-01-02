@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CareCollectionViewCell" customModule="CosmeticApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="262" height="228"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="262" height="228"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dmp-c2-VCN">
+                        <rect key="frame" x="8" y="8" width="246" height="212"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Njw-o5-5U1">
+                                <rect key="frame" x="8" y="0.0" width="230" height="141.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lip" translatesAutoresizingMaskIntoConstraints="NO" id="7xI-Iv-XeU">
+                                        <rect key="frame" x="27" y="27" width="176" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="176" id="fa3-ON-rZX"/>
+                                            <constraint firstAttribute="height" constant="87" id="poH-4K-kJo"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7xI-Iv-XeU" firstAttribute="centerY" secondItem="Njw-o5-5U1" secondAttribute="centerY" id="WZ4-Kc-Wrd"/>
+                                    <constraint firstItem="7xI-Iv-XeU" firstAttribute="centerX" secondItem="Njw-o5-5U1" secondAttribute="centerX" id="dJ4-2D-G2z"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lj7-od-PTc">
+                                <rect key="frame" x="8" y="141.5" width="230" height="70.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="kmI-tn-RsG">
+                                        <rect key="frame" x="8" y="8" width="214" height="54.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Son MAC Travel Exclusive Powder Kiss Lipstick " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZ5-kr-hvi">
+                                                <rect key="frame" x="0.0" y="0.0" width="214" height="24.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="lAV-2S-Q1u">
+                                                <rect key="frame" x="0.0" y="38.5" width="214" height="16"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 123.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipw-Nm-zYJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="198" height="16"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.48015278579999998" green="0.098688878120000004" blue="0.098011352120000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_love" translatesAutoresizingMaskIntoConstraints="NO" id="LW0-Qg-c9J">
+                                                        <rect key="frame" x="198" y="0.0" width="16" height="16"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="16" id="chq-lO-6yA"/>
+                                                            <constraint firstAttribute="height" constant="16" id="jet-J5-bCA"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="lAV-2S-Q1u" firstAttribute="top" secondItem="FZ5-kr-hvi" secondAttribute="bottom" constant="14" id="2dK-cq-1sJ"/>
+                                            <constraint firstItem="lAV-2S-Q1u" firstAttribute="trailing" secondItem="FZ5-kr-hvi" secondAttribute="trailing" id="aq6-3Q-eNR"/>
+                                            <constraint firstItem="FZ5-kr-hvi" firstAttribute="top" secondItem="kmI-tn-RsG" secondAttribute="top" id="gl0-jM-Ybm"/>
+                                            <constraint firstItem="lAV-2S-Q1u" firstAttribute="leading" secondItem="FZ5-kr-hvi" secondAttribute="leading" id="mQ8-Ko-5zE"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kmI-tn-RsG" firstAttribute="top" secondItem="lj7-od-PTc" secondAttribute="top" constant="8" id="GQm-VK-BvP"/>
+                                    <constraint firstAttribute="bottom" secondItem="kmI-tn-RsG" secondAttribute="bottom" constant="8" id="Vzh-SG-KJE"/>
+                                    <constraint firstAttribute="trailing" secondItem="kmI-tn-RsG" secondAttribute="trailing" constant="8" id="pCK-aI-GaD"/>
+                                    <constraint firstItem="kmI-tn-RsG" firstAttribute="leading" secondItem="lj7-od-PTc" secondAttribute="leading" constant="8" id="zEJ-X8-aH0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="lj7-od-PTc" secondAttribute="bottom" id="2Uy-EW-xQL"/>
+                            <constraint firstItem="lj7-od-PTc" firstAttribute="height" secondItem="Dmp-c2-VCN" secondAttribute="height" multiplier="1/3" id="2Y2-lM-khV"/>
+                            <constraint firstItem="Njw-o5-5U1" firstAttribute="height" secondItem="Dmp-c2-VCN" secondAttribute="height" multiplier="2/3" id="8i7-Og-Xec"/>
+                            <constraint firstItem="lj7-od-PTc" firstAttribute="top" secondItem="Njw-o5-5U1" secondAttribute="bottom" id="N5A-xG-gab"/>
+                            <constraint firstAttribute="trailing" secondItem="Njw-o5-5U1" secondAttribute="trailing" constant="8" id="REP-MH-HyZ"/>
+                            <constraint firstItem="Njw-o5-5U1" firstAttribute="top" secondItem="Dmp-c2-VCN" secondAttribute="top" id="ZEx-sj-nPp"/>
+                            <constraint firstItem="Njw-o5-5U1" firstAttribute="leading" secondItem="Dmp-c2-VCN" secondAttribute="leading" constant="8" id="j9S-em-nV9"/>
+                            <constraint firstItem="lj7-od-PTc" firstAttribute="leading" secondItem="Njw-o5-5U1" secondAttribute="leading" id="uNE-1A-kbd"/>
+                            <constraint firstItem="lj7-od-PTc" firstAttribute="trailing" secondItem="Njw-o5-5U1" secondAttribute="trailing" id="wsg-Z2-v3u"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Dmp-c2-VCN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="HVE-LQ-JQI"/>
+                <constraint firstItem="Dmp-c2-VCN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="X6d-Oy-2vX"/>
+                <constraint firstAttribute="trailing" secondItem="Dmp-c2-VCN" secondAttribute="trailing" constant="8" id="ewK-Yy-XbB"/>
+                <constraint firstAttribute="bottom" secondItem="Dmp-c2-VCN" secondAttribute="bottom" constant="8" id="yPd-dY-exr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="262" height="228"/>
+            <connections>
+                <outlet property="containerView" destination="Dmp-c2-VCN" id="RdC-mG-6AZ"/>
+            </connections>
+            <point key="canvasLocation" x="285.50724637681162" y="119.86607142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_love" width="48" height="48"/>
+        <image name="lip" width="510" height="510"/>
+    </resources>
+</document>

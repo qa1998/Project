@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NewCollectionViewCell" customModule="CosmeticApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="258" height="209"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="258" height="209"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G9y-rX-65F">
+                        <rect key="frame" x="8" y="8" width="242" height="193"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nTp-jq-kOA">
+                                <rect key="frame" x="8" y="0.0" width="226" height="128.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lip" translatesAutoresizingMaskIntoConstraints="NO" id="HSV-pA-iiR">
+                                        <rect key="frame" x="25" y="21" width="176" height="87"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="87" id="TON-ed-FBf"/>
+                                            <constraint firstAttribute="width" constant="176" id="mQ6-0v-yzT"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HSV-pA-iiR" firstAttribute="centerY" secondItem="nTp-jq-kOA" secondAttribute="centerY" id="6ZG-bP-Woe"/>
+                                    <constraint firstItem="HSV-pA-iiR" firstAttribute="centerX" secondItem="nTp-jq-kOA" secondAttribute="centerX" id="dhE-re-bbL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLa-QV-Mpb">
+                                <rect key="frame" x="8" y="128.5" width="226" height="64.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="F4c-Ab-QeB">
+                                        <rect key="frame" x="8" y="8" width="210" height="48.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Son MAC Travel Exclusive Powder Kiss Lipstick " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-TY-7xT">
+                                                <rect key="frame" x="0.0" y="0.0" width="210" height="18.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="eXL-Ir-KfJ">
+                                                <rect key="frame" x="0.0" y="32.5" width="210" height="16"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 123.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gay-SG-NTT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="194" height="16"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.48015278577804565" green="0.098688878118991852" blue="0.098011352121829987" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_love" translatesAutoresizingMaskIntoConstraints="NO" id="3kS-cf-CcU">
+                                                        <rect key="frame" x="194" y="0.0" width="16" height="16"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="16" id="c3Y-wD-mje"/>
+                                                            <constraint firstAttribute="width" constant="16" id="nh2-jd-Gvq"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Oel-TY-7xT" firstAttribute="top" secondItem="F4c-Ab-QeB" secondAttribute="top" id="OSg-r6-Ulh"/>
+                                            <constraint firstItem="eXL-Ir-KfJ" firstAttribute="trailing" secondItem="Oel-TY-7xT" secondAttribute="trailing" id="g3C-TH-Jfj"/>
+                                            <constraint firstItem="eXL-Ir-KfJ" firstAttribute="leading" secondItem="Oel-TY-7xT" secondAttribute="leading" id="lAi-NZ-yRC"/>
+                                            <constraint firstItem="eXL-Ir-KfJ" firstAttribute="top" secondItem="Oel-TY-7xT" secondAttribute="bottom" constant="14" id="m54-wP-6my"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="F4c-Ab-QeB" secondAttribute="trailing" constant="8" id="5zl-dZ-TKf"/>
+                                    <constraint firstItem="F4c-Ab-QeB" firstAttribute="leading" secondItem="XLa-QV-Mpb" secondAttribute="leading" constant="8" id="ZzC-8C-ymk"/>
+                                    <constraint firstItem="F4c-Ab-QeB" firstAttribute="top" secondItem="XLa-QV-Mpb" secondAttribute="top" constant="8" id="ckG-ws-ypb"/>
+                                    <constraint firstAttribute="bottom" secondItem="F4c-Ab-QeB" secondAttribute="bottom" constant="8" id="enG-J4-Dh4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nTp-jq-kOA" firstAttribute="leading" secondItem="G9y-rX-65F" secondAttribute="leading" constant="8" id="IYl-JE-6le"/>
+                            <constraint firstItem="nTp-jq-kOA" firstAttribute="height" secondItem="G9y-rX-65F" secondAttribute="height" multiplier="2/3" id="fQh-LB-ZQR"/>
+                            <constraint firstAttribute="bottom" secondItem="XLa-QV-Mpb" secondAttribute="bottom" id="fbh-hb-1Qs"/>
+                            <constraint firstItem="nTp-jq-kOA" firstAttribute="top" secondItem="G9y-rX-65F" secondAttribute="top" id="hVK-2h-TbP"/>
+                            <constraint firstItem="XLa-QV-Mpb" firstAttribute="top" secondItem="nTp-jq-kOA" secondAttribute="bottom" id="nhx-xh-wab"/>
+                            <constraint firstAttribute="trailing" secondItem="nTp-jq-kOA" secondAttribute="trailing" constant="8" id="pTg-14-aoI"/>
+                            <constraint firstItem="XLa-QV-Mpb" firstAttribute="trailing" secondItem="nTp-jq-kOA" secondAttribute="trailing" id="ptY-pK-ocX"/>
+                            <constraint firstItem="XLa-QV-Mpb" firstAttribute="height" secondItem="G9y-rX-65F" secondAttribute="height" multiplier="1/3" id="w4c-aM-Zga"/>
+                            <constraint firstItem="XLa-QV-Mpb" firstAttribute="leading" secondItem="nTp-jq-kOA" secondAttribute="leading" id="yNm-qR-iLS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="G9y-rX-65F" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="0o3-aX-AKI"/>
+                <constraint firstAttribute="bottom" secondItem="G9y-rX-65F" secondAttribute="bottom" constant="8" id="PoW-5F-LyY"/>
+                <constraint firstAttribute="trailing" secondItem="G9y-rX-65F" secondAttribute="trailing" constant="8" id="WoG-Ri-q80"/>
+                <constraint firstItem="G9y-rX-65F" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="fDm-m5-ZeS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="258" height="209"/>
+            <connections>
+                <outlet property="containerView" destination="G9y-rX-65F" id="YFo-qw-wkK"/>
+                <outlet property="imageView" destination="HSV-pA-iiR" id="B9Y-Bj-Zyv"/>
+                <outlet property="imgeView" destination="nTp-jq-kOA" id="WnJ-CB-APp"/>
+                <outlet property="titleProduct" destination="Oel-TY-7xT" id="aJ1-kq-OWx"/>
+                <outlet property="txtPrice" destination="Gay-SG-NTT" id="4ft-9v-N16"/>
+            </connections>
+            <point key="canvasLocation" x="281.15942028985512" y="148.32589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_love" width="48" height="48"/>
+        <image name="lip" width="510" height="510"/>
+    </resources>
+</document>
